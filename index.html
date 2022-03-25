@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SuperHero</title>
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/app.css">
+</head>
+<body>
+
+<header class="container-fluid">
+    <div class="row">
+        <nav class="navbar navbar-light col-12">
+            <a class="navbar-brand" href="#">
+              <img src="assets/img/sh2.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
+              SuperHero
+            </a>
+          </nav>
+    </div>
+    
+
+</header>
+
+<main class="container pt-5">
+    <div class="row">
+        <div class="col-12 text-center">
+            <img class="img-super" src="assets/img/sh1.jpg" alt="" srcset="">
+            
+        </div>
+        <div class="col-12 pt-5">
+            <h2>Encuentra tu SuperHero</h2>
+            <label for="">Ingresa el número del SuperHero a buscar:</label>
+            <input id ="SuperHero" type="text" name="" class="form-control " aria-label="">
+            <button id ="buscar" type="button" class="btn btn-primary mt-2 mb-5">Buscar</button>
+
+        
+        </div>
+    </div>
+    <section class="container mb-5" id= "section-data">
+        <div class="row">
+            <div class="col-12">
+                <h3>SuperHero Encontrado: </h3>
+            </div>
+            <div class="col-12 col-md-3 imgresultado">
+                
+                <img src="#" alt="" id="super-img-resultado">
+            </div>
+            <div class="col-12 col-md-4">
+                <section >
+                    <ul class="list-group">
+                          <li class="list-group-item" id= "SuperHero-name"></li>
+                          <li class="list-group-item"id= "SuperHero-ocupation"></li>
+                          <li class="list-group-item" id= "SuperHero-appearance"></li>
+                          <li class="list-group-item"id= "SuperHero-height"></li>
+                          <li class="list-group-item"id= "SuperHero-alliance"></li>
+                          <li class="list-group-item"id= "SuperHero-weight"></li>
+                       </ul>
+                   </section>
+            </div>
+            <div class="col-12 col-md-5" id= "super-grafico">
+
+            </div>
+         
+
+
+         </div>
+    </section>
+</main>
+
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>

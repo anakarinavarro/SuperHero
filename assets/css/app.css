@@ -1,0 +1,13 @@
+
+header{
+    background-color:#333;
+}
+header .navbar a{
+    color:white !important;
+}
+.img-super{
+    width: 400px;
+}
+.imgresultado img{
+    width: 100%;
+}
